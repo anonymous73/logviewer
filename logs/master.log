@@ -1,0 +1,868 @@
+[rosmaster.main][INFO] 2017-11-20 12:09:24,840: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-11-20 12:09:24,841: Starting ROS Master Node
+[xmlrpc][INFO] 2017-11-20 12:09:24,841: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-11-20 12:09:24,842: Started XML-RPC server [http://frank-Precision-7510:11311/]
+[xmlrpc][INFO] 2017-11-20 12:09:24,842: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-11-20 12:09:24,842: Master initialized: port[11311], uri[http://frank-Precision-7510:11311/]
+[rosmaster.master][INFO] 2017-11-20 12:09:24,847: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,848: +PARAM [/roslaunch/uris/host_frank_precision_7510__33494] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,955: +PARAM [/ekf_localization/odom0] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,956: +PARAM [/jackal_velocity_controller/publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,956: +PARAM [/sb_map_saver/publish_png_map] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,956: +PARAM [/platform] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,956: +PARAM [/jackal_joint_publisher/publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,956: +PARAM [/jackal_velocity_controller/linear/x/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,956: +PARAM [/jackal_velocity_controller/left_wheel] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,957: +SERVICE [/rosout/get_loggers] /rosout http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:24,957: +PARAM [/rosbridge_websocket/delay_between_messages] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,957: +PARAM [/rosbridge_websocket/authenticate] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,957: +PARAM [/rosbridge_websocket/fragment_timeout] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,957: +SERVICE [/rosout/set_logger_level] /rosout http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:24,957: +PARAM [/jackal_velocity_controller/enable_odom_tf] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,958: +PARAM [/jackal_velocity_controller/wheel_separation_multiplier] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,958: +PARAM [/sb_map_saver/free_thres] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,958: +PARAM [/jackal_velocity_controller/linear/x/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,958: +PARAM [/ekf_localization/odom0_differential] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,958: +PARAM [/ekf_localization/imu0_differential] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,958: +PARAM [/jackal_velocity_controller/wheel_radius_multiplier] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,959: +PARAM [/rosbridge_websocket/address] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,959: +PUB [/rosout_agg] /rosout http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:24,959: +PARAM [/jackal_velocity_controller/linear/x/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,959: +PARAM [/jackal_velocity_controller/twist_covariance_diagonal] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,959: +PARAM [/ekf_localization/odom_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,959: +PARAM [/jackal_velocity_controller/angular/z/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,959: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,960: +PARAM [/jackal_velocity_controller/angular/z/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,960: +PARAM [/jackal_velocity_controller/k_l] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,960: +PARAM [/rosbridge_websocket/port] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,961: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,961: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,961: +PARAM [/ekf_localization/odom0_config] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,961: +PARAM [/jackal_velocity_controller/angular/z/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,962: +PARAM [/sb_map_saver/occupied_thres] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,962: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,962: +PARAM [/jackal_velocity_controller/cmd_vel_timeout] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,962: +PARAM [/rosbridge_websocket/retry_startup_delay] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,962: +PARAM [/jackal_velocity_controller/angular/z/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,963: +PARAM [/ekf_localization/frequency] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,963: +PARAM [/jackal_velocity_controller/k_r] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,963: +PARAM [/simulation] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,963: +PARAM [/jackal_velocity_controller/pose_covariance_diagonal] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,963: +PARAM [/sb_map_saver/unknown_thres] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,963: +SUB [/rosout] /rosout http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:24,964: +PARAM [/jackal_velocity_controller/right_wheel] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,964: +PARAM [/ekf_localization/base_link_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,964: +PARAM [/ekf_localization/imu0] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,964: +PARAM [/jackal_joint_publisher/type] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,964: +PARAM [/ekf_localization/imu0_config] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,964: +PARAM [/jackal_velocity_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,964: +PARAM [/jackal_velocity_controller/linear/x/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,964: +PARAM [/ekf_localization/world_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,964: +PARAM [/rosbridge_websocket/max_message_size] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:09:24,978: +PUB [/rosout] /throttle_scans http://frank-Precision-7510:46819/
+[rosmaster.master][INFO] 2017-11-20 12:09:24,978: +SERVICE [/throttle_scans/get_loggers] /throttle_scans http://frank-Precision-7510:46819/
+[rosmaster.master][INFO] 2017-11-20 12:09:24,979: +SERVICE [/throttle_scans/set_logger_level] /throttle_scans http://frank-Precision-7510:46819/
+[rosmaster.master][INFO] 2017-11-20 12:09:24,983: +SUB [/clock] /throttle_scans http://frank-Precision-7510:46819/
+[rosmaster.master][INFO] 2017-11-20 12:09:24,987: +PUB [/rosout] /robot_state_publisher http://frank-Precision-7510:37875/
+[rosmaster.master][INFO] 2017-11-20 12:09:24,989: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://frank-Precision-7510:37875/
+[rosmaster.master][INFO] 2017-11-20 12:09:24,990: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://frank-Precision-7510:37875/
+[rosmaster.master][INFO] 2017-11-20 12:09:24,992: +SUB [/scan] /throttle_scans http://frank-Precision-7510:46819/
+[rosmaster.master][INFO] 2017-11-20 12:09:24,996: +SUB [/clock] /robot_state_publisher http://frank-Precision-7510:37875/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,004: +PUB [/tf] /robot_state_publisher http://frank-Precision-7510:37875/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,005: +PUB [/tf_static] /robot_state_publisher http://frank-Precision-7510:37875/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,012: +SUB [/joint_states] /robot_state_publisher http://frank-Precision-7510:37875/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,041: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,043: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,107: +PUB [/rosout] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,111: +PUB [/rosout] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,123: +SERVICE [/tf2_web_republisher/get_loggers] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,131: +SERVICE [/sb_map_saver/get_loggers] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,135: +SERVICE [/tf2_web_republisher/set_logger_level] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,142: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,144: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,164: +SERVICE [/sb_map_saver/set_logger_level] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,311: +SUB [/clock] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,313: +SUB [/clock] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,415: +SUB [/tf] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,460: +PUB [/project_manager/scan_update_info] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,471: +SUB [/tf_static] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,485: +PUB [/project_manager/object_update_info] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,495: +PUB [/map_server/map_png] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,495: +PUB [/rosout] /data_collector http://frank-Precision-7510:38343/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,497: +PUB [/rosout] /ls_finder http://frank-Precision-7510:43523/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,499: +SERVICE [/republish_tfs] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,504: +PUB [/map] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,507: +PUB [/map_metadata] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,521: +PUB [/rosout] /ls_trigger http://frank-Precision-7510:43902/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,522: +SERVICE [/sb_map_saver/load_map] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,523: +SUB [/clock] /data_collector http://frank-Precision-7510:38343/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,525: +SUB [/clock] /ls_finder http://frank-Precision-7510:43523/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,527: +PUB [/tf2_web_republisher/result] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,528: +SERVICE [/sb_map_saver/reset_map] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,530: +SERVICE [/data_collector/get_loggers] /data_collector http://frank-Precision-7510:38343/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,531: +SERVICE [/ls_finder/get_loggers] /ls_finder http://frank-Precision-7510:43523/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,533: +PUB [/tf2_web_republisher/feedback] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,534: +SERVICE [/sb_map_saver/save_map] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,535: +SERVICE [/data_collector/set_logger_level] /data_collector http://frank-Precision-7510:38343/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,537: +SERVICE [/ls_finder/set_logger_level] /ls_finder http://frank-Precision-7510:43523/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,543: +PUB [/tf2_web_republisher/status] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,544: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,545: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,546: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,548: +SUB [/clock] /ls_trigger http://frank-Precision-7510:43902/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,552: +SERVICE [/ls_trigger/get_loggers] /ls_trigger http://frank-Precision-7510:43902/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,552: +SERVICE [/sb_map_saver/get_png_preview] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,554: +SERVICE [/ls_trigger/set_logger_level] /ls_trigger http://frank-Precision-7510:43902/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,555: +SERVICE [/static_map] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,560: +SUB [/farofocus_ros/state] /data_collector http://frank-Precision-7510:38343/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,563: +PUB [/rosout] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,565: +SUB [/rfid/tag] /ls_trigger http://frank-Precision-7510:43902/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,568: +SERVICE [/dynamic_map] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,571: +SERVICE [/sb_map_saver/png_map] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,571: +PUB [/rosout] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,573: +SUB [/clock] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,574: +SERVICE [/compressed_map] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,575: +SERVICE [/gazebo/get_loggers] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,576: +SUB [/tf2_web_republisher/goal] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,577: +SERVICE [/sb_map_saver/save_submaps] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,581: +SERVICE [/pm_node/get_loggers] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,583: +SERVICE [/pm_node/set_logger_level] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,585: +SERVICE [/gazebo/set_logger_level] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,586: +PUB [/rosout] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,587: +SERVICE [/project_manager/upload_object] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,590: +SERVICE [/project_manager/change_object] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,593: +SUB [/tf2_web_republisher/cancel] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,593: +SERVICE [/project_manager/get_all_objects_from_project] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,594: +SUB [/clock] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,595: +SUB [/map] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,596: +SERVICE [/project_manager/get_description_from_project] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,598: +SERVICE [/project_manager/get_object_by_id] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,598: +SERVICE [/rosbridge_websocket/get_loggers] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,600: +SERVICE [/project_manager/get_objects_by_type] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,601: +SERVICE [/rosbridge_websocket/set_logger_level] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,601: +SUB [/clock] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,602: +SERVICE [/project_manager/delete_files_from_project] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,604: +SERVICE [/project_manager/remove_object_by_id] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,606: +SERVICE [/project_manager/remove_objects_by_type] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,608: +SERVICE [/project_manager/remove_subproject] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,611: +SERVICE [/project_manager/delete_project] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,612: +SERVICE [/project_manager/set_project_name] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,613: +SERVICE [/project_manager/save_l2d_file] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,615: +SERVICE [/project_manager/get_all_projects] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,616: +SERVICE [/project_manager/get_project_name] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,618: +SERVICE [/project_manager/download_project] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,634: +SUB [/firmware_update/status] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,645: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,646: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,647: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,664: +PUB [/rosout] /controller_spawner http://frank-Precision-7510:38504/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,671: +SUB [/clock] /controller_spawner http://frank-Precision-7510:38504/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,673: +SERVICE [/controller_spawner/get_loggers] /controller_spawner http://frank-Precision-7510:38504/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,674: +SERVICE [/controller_spawner/set_logger_level] /controller_spawner http://frank-Precision-7510:38504/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,734: +PUB [/rosout] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,737: +SUB [/clock] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,739: +SERVICE [/fcs_node/get_loggers] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,740: +SERVICE [/fcs_node/set_logger_level] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,741: +SERVICE [/file_content_server/get_file_content] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,741: +SERVICE [/file_content_server/copy_file] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,742: +SERVICE [/file_content_server/copy_dir] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,743: +SERVICE [/file_content_server/move_file] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,744: +SERVICE [/file_content_server/start_ros_bag_logging] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,744: +SERVICE [/file_content_server/stop_ros_bag_logging] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,745: +SERVICE [/file_content_server/is_ros_bag_logging] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,746: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,746: +SERVICE [/file_content_server/clear_ros_bag_log_dir] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,746: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,747: +SERVICE [/file_content_server/get_logs] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,749: +SERVICE [/file_content_server/reconfigure_ap] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,749: +SERVICE [/file_content_server/get_ssid] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,750: +SERVICE [/file_content_server/system_health] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,751: +SERVICE [/file_content_server/trigger_update] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,752: +SERVICE [/file_content_server/update_status] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,753: +SERVICE [/file_content_server/get_serial_number] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,753: +SERVICE [/file_content_server/set_serial_number] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,754: +SERVICE [/file_content_server/set_ls_ip] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,755: +SERVICE [/file_content_server/get_firmware_info] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,756: +SERVICE [/file_content_server/is_update_running] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,757: +SERVICE [/file_content_server/is_hardware_ready_update] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,830: +PUB [/rosout] /urdf_spawner http://frank-Precision-7510:33796/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,832: +SUB [/clock] /urdf_spawner http://frank-Precision-7510:33796/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,834: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://frank-Precision-7510:33796/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,834: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://frank-Precision-7510:33796/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,848: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,856: +PUB [/rosout] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,860: +SUB [/clock] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,861: +SERVICE [/rosapi/get_loggers] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,862: +SERVICE [/rosapi/set_logger_level] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,863: +SERVICE [/rosapi/topics] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,864: +SERVICE [/rosapi/topics_for_type] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,864: +SERVICE [/rosapi/services] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,865: +SERVICE [/rosapi/services_for_type] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,866: +SERVICE [/rosapi/nodes] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,867: +SERVICE [/rosapi/node_details] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,868: +SERVICE [/rosapi/topic_type] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,868: +SERVICE [/rosapi/service_type] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,869: +SERVICE [/rosapi/publishers] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,870: +SERVICE [/rosapi/subscribers] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,871: +SERVICE [/rosapi/service_providers] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,872: +SERVICE [/rosapi/service_node] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,872: +SERVICE [/rosapi/service_host] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,873: +SERVICE [/rosapi/message_details] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,874: +SERVICE [/rosapi/service_request_details] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,875: +SERVICE [/rosapi/service_response_details] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,875: +SERVICE [/rosapi/set_param] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,878: +SERVICE [/rosapi/get_param] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,880: +SERVICE [/rosapi/has_param] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,881: +SERVICE [/rosapi/search_param] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,882: +SERVICE [/rosapi/delete_param] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,882: +SERVICE [/rosapi/get_param_names] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,883: +SERVICE [/rosapi/get_time] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,906: +PUB [/rosout] /control_manager http://frank-Precision-7510:46818/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,908: +SUB [/clock] /control_manager http://frank-Precision-7510:46818/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,909: +SERVICE [/control_manager/get_loggers] /control_manager http://frank-Precision-7510:46818/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,910: +SERVICE [/control_manager/set_logger_level] /control_manager http://frank-Precision-7510:46818/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,912: +SUB [/ngimu_driver_node/imu] /control_manager http://frank-Precision-7510:46818/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,912: +SERVICE [/control_manager/set_mode] /control_manager http://frank-Precision-7510:46818/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,913: +SERVICE [/control_manager/get_mode] /control_manager http://frank-Precision-7510:46818/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,914: +SERVICE [/control_manager/load_project] /control_manager http://frank-Precision-7510:46818/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,915: +SERVICE [/control_manager/create_project] /control_manager http://frank-Precision-7510:46818/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,916: +SERVICE [/control_manager/save_project] /control_manager http://frank-Precision-7510:46818/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,917: +SERVICE [/control_manager/get_current_project] /control_manager http://frank-Precision-7510:46818/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,917: +PUB [/control_manager/pub_info] /control_manager http://frank-Precision-7510:46818/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,948: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:25,949: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,234: +PUB [/clock] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,235: +SERVICE [/gazebo/spawn_gazebo_model] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,236: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,236: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,237: +SERVICE [/gazebo/delete_model] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,237: +SERVICE [/gazebo/get_model_properties] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,238: +SERVICE [/gazebo/get_model_state] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,238: +SERVICE [/gazebo/get_world_properties] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,239: +SERVICE [/gazebo/get_joint_properties] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,239: +SERVICE [/gazebo/get_link_properties] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,240: +SERVICE [/gazebo/get_link_state] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,240: +SERVICE [/gazebo/get_physics_properties] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,241: +PUB [/gazebo/link_states] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,241: +PUB [/gazebo/model_states] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,241: +SERVICE [/gazebo/set_link_properties] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,242: +SERVICE [/gazebo/set_physics_properties] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,242: +SERVICE [/gazebo/set_model_state] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,243: +SERVICE [/gazebo/set_model_configuration] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,243: +SERVICE [/gazebo/set_joint_properties] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,244: +SERVICE [/gazebo/set_link_state] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,246: +SUB [/gazebo/set_link_state] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,249: +SUB [/gazebo/set_model_state] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,249: publisherUpdate[/clock] -> http://frank-Precision-7510:46819/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,250: +SERVICE [/gazebo/pause_physics] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,250: publisherUpdate[/clock] -> http://frank-Precision-7510:37875/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,250: publisherUpdate[/clock] -> http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,251: +SERVICE [/gazebo/unpause_physics] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,251: publisherUpdate[/clock] -> http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,251: publisherUpdate[/clock] -> http://frank-Precision-7510:38343/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,251: publisherUpdate[/clock] -> http://frank-Precision-7510:43523/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,252: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,252: publisherUpdate[/clock] -> http://frank-Precision-7510:43902/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,253: publisherUpdate[/clock] -> http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,253: publisherUpdate[/clock] -> http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,254: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,254: publisherUpdate[/clock] -> http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,254: publisherUpdate[/clock] -> http://frank-Precision-7510:38504/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,254: publisherUpdate[/clock] -> http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,255: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,255: publisherUpdate[/clock] -> http://frank-Precision-7510:33796/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,256: publisherUpdate[/clock] -> http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,256: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,257: publisherUpdate[/clock] -> http://frank-Precision-7510:46818/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,258: +SERVICE [/gazebo/reset_simulation] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,259: +SERVICE [/gazebo/reset_world] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:26,259: +PARAM [/use_sim_time] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:27,875: -SUB [/clock] /urdf_spawner http://frank-Precision-7510:33796/
+[rosmaster.master][INFO] 2017-11-20 12:09:27,875: -PUB [/rosout] /urdf_spawner http://frank-Precision-7510:33796/
+[rosmaster.master][INFO] 2017-11-20 12:09:27,875: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://frank-Precision-7510:40862
+[rosmaster.master][INFO] 2017-11-20 12:09:27,876: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://frank-Precision-7510:40862
+[rosmaster.master][INFO] 2017-11-20 12:09:27,960: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][ERROR] 2017-11-20 12:09:28,350: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 425, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2017-11-20 12:09:28,350: +PUB [/scan] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,361: publisherUpdate[/scan] -> http://frank-Precision-7510:46819/
+[rosmaster.master][ERROR] 2017-11-20 12:09:28,361: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 425, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2017-11-20 12:09:28,509: +SERVICE [/controller_manager/list_controllers] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,509: +SERVICE [/controller_manager/list_controller_types] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,510: +SERVICE [/controller_manager/load_controller] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,511: +SERVICE [/controller_manager/unload_controller] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,511: +SERVICE [/controller_manager/switch_controller] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,512: +SERVICE [/controller_manager/reload_controller_libraries] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,515: +PUB [/ngimu_driver_node/imu] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,516: +PUB [/ngimu_driver_node/imu/bias] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,516: +SERVICE [/ngimu_driver_node/imu/calibrate] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,517: +SERVICE [/ngimu_driver_node/imu/set_accel_bias] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,517: +SERVICE [/ngimu_driver_node/imu/set_rate_bias] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,518: +SERVICE [/ngimu_driver_node/imu/accel/set_parameters] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,519: +PUB [/ngimu_driver_node/imu/accel/parameter_descriptions] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,520: +PUB [/ngimu_driver_node/imu/accel/parameter_updates] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,523: +PARAM [/ngimu_driver_node/imu/accel/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,523: +PARAM [/ngimu_driver_node/imu/accel/offset] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,524: +PARAM [/ngimu_driver_node/imu/accel/drift] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,525: +PARAM [/ngimu_driver_node/imu/accel/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,525: +PARAM [/ngimu_driver_node/imu/accel/scale_error] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,526: +SERVICE [/ngimu_driver_node/imu/rate/set_parameters] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,526: +PUB [/ngimu_driver_node/imu/rate/parameter_descriptions] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,527: +PUB [/ngimu_driver_node/imu/rate/parameter_updates] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,530: +PARAM [/ngimu_driver_node/imu/rate/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,531: +PARAM [/ngimu_driver_node/imu/rate/offset] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,531: +PARAM [/ngimu_driver_node/imu/rate/drift] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,532: +PARAM [/ngimu_driver_node/imu/rate/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,532: +PARAM [/ngimu_driver_node/imu/rate/scale_error] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,533: +SERVICE [/ngimu_driver_node/imu/yaw/set_parameters] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,534: +PUB [/ngimu_driver_node/imu/yaw/parameter_descriptions] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,534: +PUB [/ngimu_driver_node/imu/yaw/parameter_updates] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,537: +PARAM [/ngimu_driver_node/imu/yaw/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,538: +PARAM [/ngimu_driver_node/imu/yaw/offset] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,538: +PARAM [/ngimu_driver_node/imu/yaw/drift] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,539: +PARAM [/ngimu_driver_node/imu/yaw/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,540: +PARAM [/ngimu_driver_node/imu/yaw/scale_error] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,540: +PARAM [/ngimu_driver_node/imu/accel/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,541: +PARAM [/ngimu_driver_node/imu/accel/offset] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,542: +PARAM [/ngimu_driver_node/imu/accel/drift] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,542: +PARAM [/ngimu_driver_node/imu/accel/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,543: +PARAM [/ngimu_driver_node/imu/accel/scale_error] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,543: +PARAM [/ngimu_driver_node/imu/rate/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,544: +PARAM [/ngimu_driver_node/imu/rate/offset] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,544: +PARAM [/ngimu_driver_node/imu/rate/drift] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,545: +PARAM [/ngimu_driver_node/imu/rate/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,545: +PARAM [/ngimu_driver_node/imu/rate/scale_error] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,546: +PARAM [/ngimu_driver_node/imu/yaw/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,546: +PARAM [/ngimu_driver_node/imu/yaw/offset] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,547: +PARAM [/ngimu_driver_node/imu/yaw/drift] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,548: +PARAM [/ngimu_driver_node/imu/yaw/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,548: +PARAM [/ngimu_driver_node/imu/yaw/scale_error] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,551: +PUB [/navsat/fix] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,552: +PUB [/navsat/vel] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,553: +SERVICE [/navsat/fix/position/set_parameters] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,553: +PUB [/navsat/fix/position/parameter_descriptions] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,554: +PUB [/navsat/fix/position/parameter_updates] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,556: +PARAM [/navsat/fix/position/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,557: +PARAM [/navsat/fix/position/offset] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,557: +PARAM [/navsat/fix/position/drift] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,558: +PARAM [/navsat/fix/position/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,558: +PARAM [/navsat/fix/position/scale_error] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,559: +SERVICE [/navsat/fix/velocity/set_parameters] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,560: +PUB [/navsat/fix/velocity/parameter_descriptions] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,560: +PUB [/navsat/fix/velocity/parameter_updates] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,562: publisherUpdate[/ngimu_driver_node/imu] -> http://frank-Precision-7510:46818/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,564: +PARAM [/navsat/fix/velocity/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,564: +PARAM [/navsat/fix/velocity/offset] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,565: +PARAM [/navsat/fix/velocity/drift] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,565: +PARAM [/navsat/fix/velocity/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,566: +PARAM [/navsat/fix/velocity/scale_error] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,566: +SERVICE [/navsat/fix/status/set_parameters] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,567: +PUB [/navsat/fix/status/parameter_descriptions] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,568: +PUB [/navsat/fix/status/parameter_updates] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,572: +PARAM [/navsat/fix/status/STATUS_FIX] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,572: +PARAM [/navsat/fix/status/STATUS_SBAS_FIX] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,573: +PARAM [/navsat/fix/status/STATUS_GBAS_FIX] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,573: +PARAM [/navsat/fix/status/SERVICE_GPS] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,574: +PARAM [/navsat/fix/status/SERVICE_GLONASS] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,574: +PARAM [/navsat/fix/status/SERVICE_COMPASS] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,575: +PARAM [/navsat/fix/status/SERVICE_GALILEO] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,575: +PARAM [/navsat/fix/position/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,576: +PARAM [/navsat/fix/position/offset] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,576: +PARAM [/navsat/fix/position/drift] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,577: +PARAM [/navsat/fix/position/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,577: +PARAM [/navsat/fix/position/scale_error] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,578: +PARAM [/navsat/fix/velocity/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,579: +PARAM [/navsat/fix/velocity/offset] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,579: +PARAM [/navsat/fix/velocity/drift] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,580: +PARAM [/navsat/fix/velocity/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,580: +PARAM [/navsat/fix/velocity/scale_error] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,581: +PARAM [/navsat/fix/status/STATUS_FIX] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,581: +PARAM [/navsat/fix/status/STATUS_SBAS_FIX] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,582: +PARAM [/navsat/fix/status/STATUS_GBAS_FIX] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,582: +PARAM [/navsat/fix/status/SERVICE_GPS] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,583: +PARAM [/navsat/fix/status/SERVICE_GLONASS] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,584: +PARAM [/navsat/fix/status/SERVICE_COMPASS] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,584: +PARAM [/navsat/fix/status/SERVICE_GALILEO] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,608: +SERVICE [/gazebo/set_parameters] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,608: +PUB [/gazebo/parameter_descriptions] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,609: +PUB [/gazebo/parameter_updates] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,613: +PUB [/scan_throttle] /throttle_scans http://frank-Precision-7510:46819/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,618: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,619: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,619: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,620: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,621: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,621: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,622: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,623: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,623: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,624: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,625: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,625: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,626: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,627: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,627: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,629: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,630: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,631: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,632: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,632: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,633: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,633: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,634: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,635: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,635: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,636: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,637: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,637: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,638: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,638: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2017-11-20 12:09:28,730: +PUB [/joint_states] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,762: publisherUpdate[/joint_states] -> http://frank-Precision-7510:37875/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,798: +PUB [/jackal_velocity_controller/odom] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,800: +PUB [/tf] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,804: +SUB [/jackal_velocity_controller/cmd_vel] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:09:28,863: publisherUpdate[/tf] -> http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:09:49,936: +SUB [/control_manager/pub_info] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:09:49,943: +SUB [/rfid/progress] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:09:49,952: +SUB [/relocalization_status] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:09:49,980: +PUB [/tf2_web_republisher/goal] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:09:49,987: publisherUpdate[/tf2_web_republisher/goal] -> http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:09:49,988: +PUB [/tf2_web_republisher/cancel] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:09:49,989: publisherUpdate[/tf2_web_republisher/cancel] -> http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:09:49,995: +SUB [/tf2_web_republisher/feedback] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:09:50,142: +SUB [/farofocus_ros/state] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:09:51,232: +PARAM [/auto_logging] by /rosapi
+[rosmaster.master][INFO] 2017-11-20 12:09:57,608: +PUB [/rosout] /record_1511176197605681210 http://frank-Precision-7510:33543/
+[rosmaster.master][INFO] 2017-11-20 12:09:57,609: +SERVICE [/record_1511176197605681210/get_loggers] /record_1511176197605681210 http://frank-Precision-7510:33543/
+[rosmaster.master][INFO] 2017-11-20 12:09:57,609: +SERVICE [/record_1511176197605681210/set_logger_level] /record_1511176197605681210 http://frank-Precision-7510:33543/
+[rosmaster.master][INFO] 2017-11-20 12:09:57,613: +SUB [/clock] /record_1511176197605681210 http://frank-Precision-7510:33543/
+[rosmaster.master][INFO] 2017-11-20 12:09:57,617: +SUB [/ngimu_driver_node/imu] /record_1511176197605681210 http://frank-Precision-7510:33543/
+[rosmaster.master][INFO] 2017-11-20 12:09:57,621: +SUB [/scan_throttle] /record_1511176197605681210 http://frank-Precision-7510:33543/
+[rosmaster.master][INFO] 2017-11-20 12:09:57,624: +SUB [/tf] /record_1511176197605681210 http://frank-Precision-7510:33543/
+[rosmaster.master][INFO] 2017-11-20 12:09:57,698: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,213: +PARAM [/roslaunch/uris/host_frank_precision_7510__46091] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:10:02,216: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:10:02,217: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-11-20 12:10:02,277: +PUB [/rosout] /occupancy_grid_node http://frank-Precision-7510:35829/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,278: +SERVICE [/occupancy_grid_node/get_loggers] /occupancy_grid_node http://frank-Precision-7510:35829/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,278: +SERVICE [/occupancy_grid_node/set_logger_level] /occupancy_grid_node http://frank-Precision-7510:35829/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,281: +PUB [/rosout] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,283: +SERVICE [/mapper_node/get_loggers] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,284: +SERVICE [/mapper_node/set_logger_level] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,286: +SUB [/clock] /occupancy_grid_node http://frank-Precision-7510:35829/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,296: +SUB [/submap_list] /occupancy_grid_node http://frank-Precision-7510:35829/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,297: +SUB [/clock] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,298: +PUB [/map] /occupancy_grid_node http://frank-Precision-7510:35829/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,301: +SUB [/tf] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,304: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,304: publisherUpdate[/map] -> http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,306: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,307: +SUB [/tf_static] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,310: +PUB [/tf] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,311: +PUB [/submap_list] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,312: +PUB [/trajectory_node_list] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,313: +PUB [/constraint_list] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,314: +SERVICE [/submap_query] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,314: +SERVICE [/start_trajectory] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,315: +SERVICE [/finish_trajectory] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,316: +SERVICE [/write_state] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,316: +PUB [/scan_matched_points2] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,321: +SUB [/scan] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,325: +SUB [/ngimu_driver_node/imu] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,405: publisherUpdate[/tf] -> http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,405: publisherUpdate[/tf] -> http://frank-Precision-7510:33543/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,406: publisherUpdate[/tf] -> http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:10:02,406: publisherUpdate[/submap_list] -> http://frank-Precision-7510:35829/
+[rosmaster.master][INFO] 2017-11-20 12:11:30,088: -PUB [/rosout] /record_1511176197605681210 http://frank-Precision-7510:33543/
+[rosmaster.master][INFO] 2017-11-20 12:11:30,089: -SUB [/clock] /record_1511176197605681210 http://frank-Precision-7510:33543/
+[rosmaster.master][INFO] 2017-11-20 12:11:30,090: -SUB [/ngimu_driver_node/imu] /record_1511176197605681210 http://frank-Precision-7510:33543/
+[rosmaster.master][INFO] 2017-11-20 12:11:30,091: -SUB [/scan_throttle] /record_1511176197605681210 http://frank-Precision-7510:33543/
+[rosmaster.master][INFO] 2017-11-20 12:11:30,092: -SUB [/tf] /record_1511176197605681210 http://frank-Precision-7510:33543/
+[rosmaster.master][INFO] 2017-11-20 12:11:30,093: -SERVICE [/record_1511176197605681210/get_loggers] /record_1511176197605681210 rosrpc://frank-Precision-7510:40732
+[rosmaster.master][INFO] 2017-11-20 12:11:30,094: -SERVICE [/record_1511176197605681210/set_logger_level] /record_1511176197605681210 rosrpc://frank-Precision-7510:40732
+[rosmaster.master][INFO] 2017-11-20 12:11:30,109: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:11:30,534: +PARAM [/auto_logging] by /rosapi
+[rosmaster.master][INFO] 2017-11-20 12:11:31,305: -PUB [/rosout] /occupancy_grid_node http://frank-Precision-7510:35829/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,306: -PUB [/map] /occupancy_grid_node http://frank-Precision-7510:35829/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,307: -SUB [/clock] /occupancy_grid_node http://frank-Precision-7510:35829/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,308: -SUB [/submap_list] /occupancy_grid_node http://frank-Precision-7510:35829/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,308: -SERVICE [/occupancy_grid_node/get_loggers] /occupancy_grid_node rosrpc://frank-Precision-7510:34352
+[rosmaster.master][INFO] 2017-11-20 12:11:31,309: -PUB [/rosout] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,309: -SERVICE [/occupancy_grid_node/set_logger_level] /occupancy_grid_node rosrpc://frank-Precision-7510:34352
+[rosmaster.master][INFO] 2017-11-20 12:11:31,310: -PUB [/tf] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,310: -PUB [/submap_list] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,311: -PUB [/trajectory_node_list] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,312: -PUB [/constraint_list] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,312: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,312: publisherUpdate[/map] -> http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,312: publisherUpdate[/tf] -> http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,313: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,313: publisherUpdate[/tf] -> http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,313: -PUB [/scan_matched_points2] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,315: -SUB [/clock] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,316: -SUB [/tf] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,316: -SUB [/tf_static] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,317: -SUB [/scan] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,318: -SUB [/ngimu_driver_node/imu] /mapper_node http://frank-Precision-7510:32977/
+[rosmaster.master][INFO] 2017-11-20 12:11:31,318: -SERVICE [/mapper_node/get_loggers] /mapper_node rosrpc://frank-Precision-7510:60675
+[rosmaster.master][INFO] 2017-11-20 12:11:31,319: -SERVICE [/mapper_node/set_logger_level] /mapper_node rosrpc://frank-Precision-7510:60675
+[rosmaster.threadpool][ERROR] 2017-11-20 12:11:31,319: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-20 12:11:31,320: -SERVICE [/submap_query] /mapper_node rosrpc://frank-Precision-7510:60675
+[rosmaster.master][INFO] 2017-11-20 12:11:31,320: -SERVICE [/start_trajectory] /mapper_node rosrpc://frank-Precision-7510:60675
+[rosmaster.master][INFO] 2017-11-20 12:11:31,320: -SERVICE [/finish_trajectory] /mapper_node rosrpc://frank-Precision-7510:60675
+[rosmaster.master][INFO] 2017-11-20 12:11:31,321: -SERVICE [/write_state] /mapper_node rosrpc://frank-Precision-7510:60675
+[rosmaster.master][INFO] 2017-11-20 12:11:46,617: +PARAM [/auto_logging] by /rosapi
+[rosmaster.master][INFO] 2017-11-20 12:20:27,921: -SUB [/clock] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,921: -PUB [/rosout] /rosapi http://frank-Precision-7510:37846/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,921: -SERVICE [/rosapi/get_loggers] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,922: -SERVICE [/rosapi/has_param] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,922: -SERVICE [/rosapi/delete_param] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,922: -SERVICE [/rosapi/search_param] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,922: -SERVICE [/rosapi/topic_type] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,922: -SERVICE [/rosapi/subscribers] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,922: -SERVICE [/rosapi/set_logger_level] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,922: -SERVICE [/rosapi/service_response_details] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,922: -SERVICE [/rosapi/service_host] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,922: -SERVICE [/rosapi/publishers] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,922: -SERVICE [/rosapi/topics] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,922: -SERVICE [/rosapi/get_param_names] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,923: -SERVICE [/rosapi/get_time] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,923: -SERVICE [/rosapi/message_details] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,923: -SERVICE [/rosapi/services] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,923: -SERVICE [/rosapi/service_node] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,923: -SERVICE [/rosapi/services_for_type] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,923: -SERVICE [/rosapi/nodes] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,923: -SERVICE [/rosapi/node_details] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,923: -SERVICE [/rosapi/service_providers] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,923: -SERVICE [/rosapi/get_param] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,923: -SERVICE [/rosapi/topics_for_type] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,923: -SERVICE [/rosapi/set_param] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,923: -SERVICE [/rosapi/service_request_details] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,924: -SERVICE [/rosapi/service_type] /rosapi rosrpc://frank-Precision-7510:45150
+[rosmaster.master][INFO] 2017-11-20 12:20:27,925: -SUB [/relocalization_status] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,925: -SUB [/control_manager/pub_info] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,926: -SUB [/tf2_web_republisher/feedback] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,926: -SUB [/rfid/progress] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,926: -SUB [/clock] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,928: -SUB [/clock] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,928: -SUB [/farofocus_ros/state] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,929: -PUB [/project_manager/scan_update_info] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,929: -PUB [/tf2_web_republisher/cancel] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,931: -SUB [/clock] /ls_trigger http://frank-Precision-7510:43902/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,931: -SUB [/rfid/tag] /ls_trigger http://frank-Precision-7510:43902/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,931: -PUB [/tf2_web_republisher/goal] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,931: -SUB [/farofocus_ros/state] /data_collector http://frank-Precision-7510:38343/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,931: -SUB [/clock] /ls_finder http://frank-Precision-7510:43523/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,932: -PUB [/rosout] /ls_trigger http://frank-Precision-7510:43902/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,932: -PUB [/rosout] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,932: -PUB [/rosout] /rosbridge_websocket http://frank-Precision-7510:46216/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,932: -SUB [/clock] /data_collector http://frank-Precision-7510:38343/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,932: -PUB [/rosout] /ls_finder http://frank-Precision-7510:43523/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,932: -SERVICE [/ls_trigger/get_loggers] /ls_trigger rosrpc://frank-Precision-7510:40539
+[rosmaster.master][INFO] 2017-11-20 12:20:27,932: -PUB [/project_manager/object_update_info] /pm_node http://frank-Precision-7510:33970/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,932: -SERVICE [/rosbridge_websocket/set_logger_level] /rosbridge_websocket rosrpc://frank-Precision-7510:40809
+[rosmaster.master][INFO] 2017-11-20 12:20:27,933: -PUB [/rosout] /data_collector http://frank-Precision-7510:38343/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,933: -SERVICE [/ls_finder/get_loggers] /ls_finder rosrpc://frank-Precision-7510:33393
+[rosmaster.master][INFO] 2017-11-20 12:20:27,933: -SERVICE [/ls_trigger/set_logger_level] /ls_trigger rosrpc://frank-Precision-7510:40539
+[rosmaster.master][INFO] 2017-11-20 12:20:27,933: -SERVICE [/project_manager/remove_subproject] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,933: -SERVICE [/rosbridge_websocket/get_loggers] /rosbridge_websocket rosrpc://frank-Precision-7510:40809
+[rosmaster.master][INFO] 2017-11-20 12:20:27,934: -SERVICE [/data_collector/set_logger_level] /data_collector rosrpc://frank-Precision-7510:36709
+[rosmaster.master][INFO] 2017-11-20 12:20:27,934: -SERVICE [/ls_finder/set_logger_level] /ls_finder rosrpc://frank-Precision-7510:33393
+[rosmaster.master][INFO] 2017-11-20 12:20:27,934: -SERVICE [/project_manager/get_all_projects] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,934: -SERVICE [/data_collector/get_loggers] /data_collector rosrpc://frank-Precision-7510:36709
+[rosmaster.master][INFO] 2017-11-20 12:20:27,935: -SERVICE [/project_manager/upload_object] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,935: -SERVICE [/project_manager/remove_object_by_id] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,935: -SERVICE [/project_manager/get_all_objects_from_project] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,936: -SERVICE [/project_manager/get_project_name] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,936: -SERVICE [/project_manager/remove_objects_by_type] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,936: -SERVICE [/project_manager/get_objects_by_type] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,936: -SERVICE [/project_manager/set_project_name] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,936: -SERVICE [/pm_node/set_logger_level] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,936: -SERVICE [/project_manager/delete_project] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,936: -SERVICE [/project_manager/change_object] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,936: -SERVICE [/project_manager/save_l2d_file] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,936: -SERVICE [/pm_node/get_loggers] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,936: -SERVICE [/project_manager/delete_files_from_project] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,936: -SERVICE [/project_manager/get_description_from_project] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,936: -SERVICE [/project_manager/get_object_by_id] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,937: -SERVICE [/project_manager/download_project] /pm_node rosrpc://frank-Precision-7510:41006
+[rosmaster.master][INFO] 2017-11-20 12:20:27,945: -PUB [/rosout] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,945: -PUB [/map_server/map_png] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,946: -PUB [/map] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,947: -PUB [/map_metadata] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,947: -SUB [/clock] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,948: -SUB [/map] /sb_map_saver http://frank-Precision-7510:34062/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,948: -SERVICE [/sb_map_saver/get_loggers] /sb_map_saver rosrpc://frank-Precision-7510:52655
+[rosmaster.master][INFO] 2017-11-20 12:20:27,949: -SERVICE [/sb_map_saver/set_logger_level] /sb_map_saver rosrpc://frank-Precision-7510:52655
+[rosmaster.master][INFO] 2017-11-20 12:20:27,950: -SERVICE [/sb_map_saver/load_map] /sb_map_saver rosrpc://frank-Precision-7510:52655
+[rosmaster.master][INFO] 2017-11-20 12:20:27,950: -SERVICE [/sb_map_saver/reset_map] /sb_map_saver rosrpc://frank-Precision-7510:52655
+[rosmaster.master][INFO] 2017-11-20 12:20:27,951: -SERVICE [/sb_map_saver/save_map] /sb_map_saver rosrpc://frank-Precision-7510:52655
+[rosmaster.master][INFO] 2017-11-20 12:20:27,951: -SERVICE [/sb_map_saver/get_png_preview] /sb_map_saver rosrpc://frank-Precision-7510:52655
+[rosmaster.master][INFO] 2017-11-20 12:20:27,952: -SERVICE [/static_map] /sb_map_saver rosrpc://frank-Precision-7510:52655
+[rosmaster.master][INFO] 2017-11-20 12:20:27,953: -SERVICE [/dynamic_map] /sb_map_saver rosrpc://frank-Precision-7510:52655
+[rosmaster.master][INFO] 2017-11-20 12:20:27,954: -SERVICE [/sb_map_saver/png_map] /sb_map_saver rosrpc://frank-Precision-7510:52655
+[rosmaster.master][INFO] 2017-11-20 12:20:27,954: -SERVICE [/compressed_map] /sb_map_saver rosrpc://frank-Precision-7510:52655
+[rosmaster.master][INFO] 2017-11-20 12:20:27,955: -SERVICE [/sb_map_saver/save_submaps] /sb_map_saver rosrpc://frank-Precision-7510:52655
+[rosmaster.master][INFO] 2017-11-20 12:20:27,987: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,988: publisherUpdate[/tf2_web_republisher/cancel] -> http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,988: publisherUpdate[/tf2_web_republisher/goal] -> http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,989: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,989: publisherUpdate[/map] -> http://frank-Precision-7510:34062/
+[rosmaster.threadpool][ERROR] 2017-11-20 12:20:27,990: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-20 12:20:27,990: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,990: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,991: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,992: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:20:27,992: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,021: -SUB [/clock] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,021: -SUB [/firmware_update/status] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,022: -PUB [/rosout] /fcs_node http://frank-Precision-7510:45927/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,022: -SERVICE [/file_content_server/trigger_update] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,022: -SERVICE [/file_content_server/move_file] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,022: -SERVICE [/file_content_server/copy_dir] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,022: -SERVICE [/file_content_server/copy_file] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,022: -SERVICE [/fcs_node/get_loggers] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,022: -SERVICE [/fcs_node/set_logger_level] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,022: -SERVICE [/file_content_server/get_ssid] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,022: -SERVICE [/file_content_server/get_serial_number] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,022: -SERVICE [/file_content_server/update_status] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,022: -SERVICE [/file_content_server/clear_ros_bag_log_dir] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,022: -SERVICE [/file_content_server/reconfigure_ap] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,022: -SERVICE [/file_content_server/set_serial_number] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,022: -SERVICE [/file_content_server/start_ros_bag_logging] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,023: -SERVICE [/file_content_server/get_logs] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,023: -SERVICE [/file_content_server/set_ls_ip] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,023: -SERVICE [/file_content_server/is_update_running] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,023: -SERVICE [/file_content_server/stop_ros_bag_logging] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,023: -SERVICE [/file_content_server/system_health] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,023: -SERVICE [/file_content_server/get_firmware_info] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,023: -SERVICE [/file_content_server/get_file_content] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,023: -SERVICE [/file_content_server/is_hardware_ready_update] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,023: -SERVICE [/file_content_server/is_ros_bag_logging] /fcs_node rosrpc://frank-Precision-7510:44158
+[rosmaster.master][INFO] 2017-11-20 12:20:28,090: -PUB [/rosout] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,090: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,091: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,091: -PUB [/tf2_web_republisher/result] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,092: -PUB [/tf2_web_republisher/feedback] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,093: -PUB [/tf2_web_republisher/status] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,093: -SUB [/clock] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,094: -SUB [/tf] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,094: -SUB [/tf_static] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,095: -SUB [/tf2_web_republisher/goal] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,096: -SUB [/tf2_web_republisher/cancel] /tf2_web_republisher http://frank-Precision-7510:45275/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,096: -SERVICE [/tf2_web_republisher/get_loggers] /tf2_web_republisher rosrpc://frank-Precision-7510:40275
+[rosmaster.master][INFO] 2017-11-20 12:20:28,097: -SERVICE [/tf2_web_republisher/set_logger_level] /tf2_web_republisher rosrpc://frank-Precision-7510:40275
+[rosmaster.master][INFO] 2017-11-20 12:20:28,098: -SERVICE [/republish_tfs] /tf2_web_republisher rosrpc://frank-Precision-7510:40275
+[rosmaster.master][INFO] 2017-11-20 12:20:28,302: -SUB [/gazebo/set_link_state] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,303: -SUB [/gazebo/set_model_state] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,303: -PUB [/clock] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,304: -PUB [/gazebo/link_states] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,304: -PUB [/gazebo/model_states] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,305: -SERVICE [/gazebo/spawn_gazebo_model] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,306: -SERVICE [/gazebo/spawn_sdf_model] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,306: -SERVICE [/gazebo/spawn_urdf_model] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,307: -SERVICE [/gazebo/delete_model] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,307: -SERVICE [/gazebo/get_model_properties] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,307: -SERVICE [/gazebo/get_model_state] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,308: -SERVICE [/gazebo/get_world_properties] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,308: -SERVICE [/gazebo/get_joint_properties] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,309: -SERVICE [/gazebo/get_link_properties] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,309: -SERVICE [/gazebo/get_link_state] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,309: -SERVICE [/gazebo/get_physics_properties] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,310: -SERVICE [/gazebo/set_link_properties] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,310: -SERVICE [/gazebo/set_physics_properties] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,311: -SERVICE [/gazebo/set_model_state] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,311: -SERVICE [/gazebo/set_model_configuration] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,312: -SERVICE [/gazebo/set_joint_properties] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,312: -SERVICE [/gazebo/set_link_state] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,312: -SERVICE [/gazebo/pause_physics] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,313: -SERVICE [/gazebo/unpause_physics] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,313: -SERVICE [/gazebo/apply_body_wrench] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,316: -SERVICE [/gazebo/apply_joint_effort] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,317: -SERVICE [/gazebo/clear_joint_forces] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,318: -SERVICE [/gazebo/clear_body_wrenches] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,320: -SERVICE [/gazebo/reset_simulation] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,320: -SERVICE [/gazebo/reset_world] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,322: -PUB [/gazebo/parameter_descriptions] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,327: -PUB [/gazebo/parameter_updates] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,328: -SERVICE [/gazebo/set_parameters] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,342: -PUB [/rosout] /robot_state_publisher http://frank-Precision-7510:37875/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,343: -PUB [/tf] /robot_state_publisher http://frank-Precision-7510:37875/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,344: -PUB [/tf_static] /robot_state_publisher http://frank-Precision-7510:37875/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,344: -PUB [/rosout] /throttle_scans http://frank-Precision-7510:46819/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,345: -SUB [/clock] /robot_state_publisher http://frank-Precision-7510:37875/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,345: -PUB [/scan_throttle] /throttle_scans http://frank-Precision-7510:46819/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,346: -SUB [/joint_states] /robot_state_publisher http://frank-Precision-7510:37875/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,346: -SUB [/clock] /throttle_scans http://frank-Precision-7510:46819/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,347: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://frank-Precision-7510:48178
+[rosmaster.master][INFO] 2017-11-20 12:20:28,347: -SUB [/scan] /throttle_scans http://frank-Precision-7510:46819/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,348: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://frank-Precision-7510:48178
+[rosmaster.master][INFO] 2017-11-20 12:20:28,348: -SERVICE [/throttle_scans/get_loggers] /throttle_scans rosrpc://frank-Precision-7510:50280
+[rosmaster.master][INFO] 2017-11-20 12:20:28,349: -SERVICE [/throttle_scans/set_logger_level] /throttle_scans rosrpc://frank-Precision-7510:50280
+[rosmaster.master][INFO] 2017-11-20 12:20:28,355: -SERVICE [/controller_manager/reload_controller_libraries] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,356: -SERVICE [/controller_manager/switch_controller] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,356: -SERVICE [/controller_manager/unload_controller] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,357: -SERVICE [/controller_manager/load_controller] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,358: -SERVICE [/controller_manager/list_controller_types] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,358: -SERVICE [/controller_manager/list_controllers] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,359: -PUB [/joint_states] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,360: -PUB [/tf] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,362: -PUB [/jackal_velocity_controller/odom] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,363: -SUB [/jackal_velocity_controller/cmd_vel] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,364: -PUB [/ngimu_driver_node/imu/accel/parameter_descriptions] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,365: -PUB [/ngimu_driver_node/imu/accel/parameter_updates] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,365: -SERVICE [/ngimu_driver_node/imu/accel/set_parameters] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,366: -PUB [/ngimu_driver_node/imu/rate/parameter_descriptions] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,366: -PUB [/ngimu_driver_node/imu/rate/parameter_updates] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,367: -SERVICE [/ngimu_driver_node/imu/rate/set_parameters] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,367: -PUB [/ngimu_driver_node/imu/yaw/parameter_descriptions] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,368: -PUB [/ngimu_driver_node/imu/yaw/parameter_updates] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,368: -SERVICE [/ngimu_driver_node/imu/yaw/set_parameters] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,369: -PUB [/ngimu_driver_node/imu] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,369: -PUB [/ngimu_driver_node/imu/bias] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,370: -SERVICE [/ngimu_driver_node/imu/calibrate] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,370: -SERVICE [/ngimu_driver_node/imu/set_accel_bias] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,371: -SERVICE [/ngimu_driver_node/imu/set_rate_bias] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,371: -PUB [/navsat/fix/position/parameter_descriptions] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,372: -PUB [/navsat/fix/position/parameter_updates] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,373: -SERVICE [/navsat/fix/position/set_parameters] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,373: -PUB [/navsat/fix/velocity/parameter_descriptions] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,374: -PUB [/navsat/fix/velocity/parameter_updates] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,374: -SERVICE [/navsat/fix/velocity/set_parameters] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,375: -PUB [/navsat/fix/status/parameter_descriptions] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,375: -PUB [/navsat/fix/status/parameter_updates] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,376: -SERVICE [/navsat/fix/status/set_parameters] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,376: -PUB [/navsat/fix] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,377: -PUB [/navsat/vel] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,381: -PUB [/scan] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,392: publisherUpdate[/clock] -> http://frank-Precision-7510:46819/
+[rosmaster.threadpool][ERROR] 2017-11-20 12:20:28,392: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2017-11-20 12:20:28,393: publisherUpdate[/clock] -> http://frank-Precision-7510:37875/
+[rosmaster.threadpool][ERROR] 2017-11-20 12:20:28,393: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2017-11-20 12:20:28,393: publisherUpdate[/clock] -> http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,393: publisherUpdate[/clock] -> http://frank-Precision-7510:38504/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,394: publisherUpdate[/clock] -> http://frank-Precision-7510:46818/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,394: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,395: publisherUpdate[/ngimu_driver_node/imu] -> http://frank-Precision-7510:46818/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,395: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,496: -PUB [/rosout] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,496: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,499: -SUB [/clock] /gazebo http://frank-Precision-7510:38915/
+[rosmaster.master][INFO] 2017-11-20 12:20:28,501: -SERVICE [/gazebo/get_loggers] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:28,502: -SERVICE [/gazebo/set_logger_level] /gazebo rosrpc://frank-Precision-7510:49632
+[rosmaster.master][INFO] 2017-11-20 12:20:30,336: -SUB [/clock] /controller_spawner http://frank-Precision-7510:38504/
+[rosmaster.master][INFO] 2017-11-20 12:20:30,336: -PUB [/rosout] /controller_spawner http://frank-Precision-7510:38504/
+[rosmaster.master][INFO] 2017-11-20 12:20:30,337: -SERVICE [/controller_spawner/set_logger_level] /controller_spawner rosrpc://frank-Precision-7510:39456
+[rosmaster.master][INFO] 2017-11-20 12:20:30,337: -SERVICE [/controller_spawner/get_loggers] /controller_spawner rosrpc://frank-Precision-7510:39456
+[rosmaster.master][INFO] 2017-11-20 12:20:30,399: publisherUpdate[/rosout] -> http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:20:45,131: -PUB [/rosout_agg] /rosout http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:20:45,132: -SUB [/rosout] /rosout http://frank-Precision-7510:44214/
+[rosmaster.master][INFO] 2017-11-20 12:20:45,132: -SERVICE [/rosout/get_loggers] /rosout rosrpc://frank-Precision-7510:55253
+[rosmaster.master][INFO] 2017-11-20 12:20:45,133: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://frank-Precision-7510:55253
+[rosmaster.main][INFO] 2017-11-20 12:20:45,157: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-11-20 12:20:45,157: stopping master...
+[rospy.core][INFO] 2017-11-20 12:20:45,158: signal_shutdown [atexit]
