@@ -1,0 +1,23 @@
+{% extends 'header.html' %} {% block body %}
+<table class="striped">
+    <thead>
+        <tr>
+            <th onclick="">Time</th>
+            <th>Status</th>
+            <th>Information</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for i in data %}
+        <tr>
+            <td>{{ i.time }}</td>
+            <td>{{ i.stat }}</td>
+            <td>{{ i.prop }}</td>
+            <td>{{ i.desc }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
